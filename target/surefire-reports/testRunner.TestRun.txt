@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 333.982 s <<< FAILURE! - in testRunner.TestRun
+Search Customer by 	Name(Customers)  Time elapsed: 66.11 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: SearchFirstName' (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#SearchFirstName"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QEV1T8U', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Kailesh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64109}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f0bb203b41b32dc6e78fcbe8e95c7b3e
+*** Element info: {Using=id, value=SearchFirstName}
+
+Login Data Driven #2(Login)  Time elapsed: 9.054 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Dashboard / nopCommerce administratio]n> but was:<[Your store. Logi]n>
+
